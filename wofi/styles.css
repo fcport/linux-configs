@@ -1,0 +1,101 @@
+/* Wofi Rosa TUI Theme */
+
+/* Finestra principale */
+window {
+    margin: 0px;
+    border: 2px solid #ff69b4;
+    background-color: #2d1b4e;
+    border-radius: 0px;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 14px;
+}
+
+/* Lista delle opzioni */
+#input {
+    margin: 8px;
+    padding: 10px;
+    color: #ffeef8;
+    background-color: #3d2b5e;
+    border: 1px solid #ff8cc8;
+    border-radius: 0px;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 14px;
+}
+
+#input:focus {
+    border: 1px solid #ff69b4;
+    background-color: #4d3b6e;
+}
+
+#inner-box {
+    margin: 8px;
+    padding: 4px;
+    background-color: #2d1b4e;
+    border: none;
+}
+
+#outer-box {
+    margin: 0px;
+    padding: 0px;
+    background-color: #2d1b4e;
+}
+
+#scroll {
+    margin: 0px;
+    padding: 0px;
+}
+
+#text {
+    margin: 5px;
+    padding: 0px;
+    color: #ffeef8;
+    font-family: "JetBrains Mono", monospace;
+    font-weight: normal;
+}
+
+/* Elementi della lista */
+#entry {
+    margin: 2px;
+    padding: 8px;
+    background-color: #2d1b4e;
+    color: #ffeef8;
+    border: 1px solid transparent;
+    border-radius: 0px;
+}
+
+#entry:selected {
+    background-color: #ff69b4;
+    color: #000000;
+    border: 1px solid #ff8cc8;
+    font-weight: bold;
+}
+
+#entry:hover {
+    background-color: #ff8cc8;
+    color: #000000;
+}
+
+/* Bordi e margini più definiti per look TUI */
+#entry:selected #text {
+    color: #000000;
+    font-weight: bold;
+}
+
+#entry:hover #text {
+    color: #000000;
+}
+
+/* Scrollbar styling */
+scrollbar {
+    background-color: #2d1b4e;
+    width: 8px;
+}
+
+scrollbar slider {
+    background-color: #ff69b4;
+    border-radius: 0px;
+}
+
+scrollbar slider:hover {
+    background-color: #ff8cc8;
+}

@@ -1,0 +1,16 @@
+add_newline = false
+
+format = """
+[](#ff7ac6)$directory[](#ff7ac6) $git_branch $character
+"""
+
+[character]
+symbol = "❯"
+style = "bold #ff7ac6"
+
+[directory]
+style = "bold #89b4fa"
+
+[git_branch]
+symbol = " "
+style = "italic #cba6f7"

@@ -1,0 +1,166 @@
+# ~/.config/yazi/theme.toml
+
+[manager]
+cwd = { fg = "#ff69b4", bold = true }
+
+# Hovered
+hovered = { fg = "#000000", bg = "#ff8cc8", bold = true }
+preview_hovered = { underline = true }
+
+# Find
+find_keyword = { fg = "#ff69b4", italic = true }
+find_position = { fg = "#000000", bg = "#ff69b4", bold = true }
+
+# Marker
+marker_selected = { fg = "#ff69b4", bg = "#ff69b4" }
+marker_copied = { fg = "#a6e3a1", bg = "#a6e3a1" }
+marker_cut = { fg = "#f38ba8", bg = "#f38ba8" }
+
+# Tab
+tab_active = { fg = "#000000", bg = "#ff69b4", bold = true }
+tab_inactive = { fg = "#ffeef8", bg = "#2d1b4e" }
+tab_width = 1
+
+# Border
+border_symbol = "│"
+border_style = { fg = "#ff8cc8" }
+
+# Highlighting
+syntect_theme = "~/.config/yazi/Catppuccin-mocha.tmTheme"
+
+[status]
+separator_open = ""
+separator_close = ""
+separator_style = { fg = "#ff69b4", bg = "#2d1b4e" }
+
+# Mode
+mode_normal = { fg = "#2d1b4e", bg = "#ff69b4", bold = true }
+mode_select = { fg = "#2d1b4e", bg = "#a6e3a1", bold = true }
+mode_unset = { fg = "#2d1b4e", bg = "#f2cdcd", bold = true }
+
+# Progress
+progress_label = { fg = "#ffeef8", bold = true }
+progress_normal = { fg = "#ff69b4", bg = "#2d1b4e" }
+progress_error = { fg = "#f38ba8", bg = "#2d1b4e" }
+
+# Permissions
+permissions_t = { fg = "#a6e3a1" }
+permissions_r = { fg = "#f9e2af" }
+permissions_w = { fg = "#f38ba8" }
+permissions_x = { fg = "#89b4fa" }
+permissions_s = { fg = "#cba6f7" }
+
+[select]
+border = { fg = "#ff69b4" }
+active = { fg = "#000000", bg = "#ff8cc8" }
+inactive = { fg = "#ffeef8" }
+
+[input]
+border = { fg = "#ff69b4" }
+title = { fg = "#ff69b4" }
+value = { fg = "#ffeef8" }
+selected = { reversed = true }
+
+[completion]
+border = { fg = "#ff69b4" }
+active = { fg = "#000000", bg = "#ff8cc8" }
+inactive = { fg = "#ffeef8" }
+
+[tasks]
+border = { fg = "#ff69b4" }
+title = { fg = "#ff69b4" }
+hovered = { fg = "#000000", bg = "#ff8cc8" }
+
+[which]
+mask = { bg = "#1e1e2e" }
+cand = { fg = "#ff8cc8" }
+rest = { fg = "#ffeef8" }
+desc = { fg = "#ff69b4" }
+separator = "  "
+separator_style = { fg = "#ff69b4" }
+
+[help]
+on = { fg = "#ff69b4" }
+exec = { fg = "#89b4fa" }
+desc = { fg = "#ffeef8" }
+hovered = { bg = "#585b70", bold = true }
+footer = { fg = "#2d1b4e", bg = "#ff69b4" }
+
+[filetype]
+
+rules = [
+    # Images
+    { mime = "image/*", fg = "#94e2d5" },
+    
+    # Videos
+    { mime = "video/*", fg = "#fab387" },
+    { mime = "audio/*", fg = "#fab387" },
+    
+    # Archives
+    { mime = "application/zip", fg = "#f9e2af" },
+    { mime = "application/gzip", fg = "#f9e2af" },
+    { mime = "application/x-tar", fg = "#f9e2af" },
+    { mime = "application/x-bzip2", fg = "#f9e2af" },
+    { mime = "application/x-7z-compressed", fg = "#f9e2af" },
+    { mime = "application/x-rar", fg = "#f9e2af" },
+    
+    # Documents
+    { mime = "application/pdf", fg = "#f38ba8" },
+    { mime = "application/msword", fg = "#89b4fa" },
+    { mime = "application/vnd.openxmlformats-officedocument.wordprocessingml.document", fg = "#89b4fa" },
+    
+    # Text
+    { mime = "text/*", fg = "#a6e3a1" },
+    
+    # Default
+    { name = "*", fg = "#ffeef8" },
+    { name = "*/", fg = "#ff8cc8" }
+]
+
+[icons]
+"Desktop/"     = ""
+"Documents/"   = ""
+"Downloads/"   = ""
+"Pictures/"    = ""
+"Music/"       = ""
+"Movies/"      = ""
+"Videos/"      = ""
+"Public/"      = ""
+"Library/"     = ""
+"Development/" = ""
+".config/"     = ""
+
+# Files
+"*.rs"         = ""
+"*.py"         = ""
+"*.js"         = ""
+"*.ts"         = ""
+"*.tsx"        = ""
+"*.jsx"        = ""
+"*.json"       = ""
+"*.toml"       = ""
+"*.yml"        = ""
+"*.yaml"       = ""
+"*.xml"        = ""
+"*.html"       = ""
+"*.css"        = ""
+"*.scss"       = ""
+"*.md"         = ""
+"*.txt"        = ""
+"*.pdf"        = ""
+"*.zip"        = ""
+"*.tar"        = ""
+"*.gz"         = ""
+"*.jpg"        = ""
+"*.jpeg"       = ""
+"*.png"        = ""
+"*.gif"        = ""
+"*.svg"        = ""
+"*.mp4"        = ""
+"*.mp3"        = ""
+"*.wav"        = ""
+"*.flac"       = ""
+
+# Fallback
+"*/"           = ""
+"*"            = ""

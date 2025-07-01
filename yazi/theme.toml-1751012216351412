@@ -1,0 +1,44 @@
+[flavor]
+use = "pink-retro"
+
+[manager]
+cwd = { fg = "#ff69b4", bold = true }
+hovered = { fg = "#000000", bg = "#ff8cc8" }
+preview_hovered = { underline = true }
+find_keyword = { fg = "#ff69b4", bold = true }
+find_position = { fg = "#ffeef8", bg = "#ff69b4" }
+
+[status]
+separator_open = ""
+separator_close = ""
+separator_style = { fg = "#ff69b4", bg = "#2d1b4e" }
+
+[select]
+border = { fg = "#ff69b4" }
+active = { fg = "#000000", bg = "#ff8cc8" }
+inactive = { fg = "#ffeef8" }
+
+[input]
+border = { fg = "#ff69b4" }
+title = { fg = "#ff69b4" }
+value = { fg = "#ffeef8" }
+selected = { reversed = true }
+
+[completion]
+border = { fg = "#ff69b4" }
+active = { fg = "#000000", bg = "#ff8cc8" }
+inactive = { fg = "#ffeef8" }
+
+[tasks]
+border = { fg = "#ff69b4" }
+title = { fg = "#ff69b4" }
+hovered = { fg = "#000000", bg = "#ff8cc8" }
+
+[which]
+cols = 3
+mask = { bg = "#1a1a2e" }
+cand = { fg = "#ff8cc8" }
+rest = { fg = "#ffeef8" }
+desc = { fg = "#ff69b4" }
+separator = "  "
+separator_style = { fg = "#ff69b4" }

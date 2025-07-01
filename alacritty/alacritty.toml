@@ -1,0 +1,30 @@
+[colors.primary]
+background = "#2d1b4e"  # Viola scuro
+foreground = "#ffeef8"  # Rosa pallido
+
+[colors.normal]
+black   = "#3d2b5e"
+red     = "#ff6b9d"
+green   = "#98fb98"
+yellow  = "#ffb3d9"
+blue    = "#dda0dd"
+magenta = "#ff69b4"     # Hot pink
+cyan    = "#ffb6c1"     # Light pink
+white   = "#ffeef8"
+
+[colors.bright]
+black   = "#4d3b6e"
+red     = "#ff8fb3"
+green   = "#b3ffb3"
+yellow  = "#ffc9e6"
+blue    = "#e6b3e6"
+magenta = "#ff8cc8"     # Bright pink
+cyan    = "#ffc9d9"
+white   = "#ffffff"
+
+[font]
+size = 11.0
+
+[font.normal]
+family = "JetBrains Mono"
+style = "Regular"
