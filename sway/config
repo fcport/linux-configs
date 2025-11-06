@@ -102,3 +102,6 @@ bindsym Ctrl+Shift+Print exec grim -g "$(slurp)" - | wl-copy
 
 # Monitor Manager TUI  
 bindsym $mod+Shift+m exec alacritty --class floating -e ~/.local/bin/monitor-manager
+
+# Volume manager TUI
+bindsym $mod+Shift+v exec alacritty --class floating -e /etc/nixos/volume-manager
